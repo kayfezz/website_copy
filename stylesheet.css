@@ -1,0 +1,120 @@
+.navImage {
+    height:100vh;
+    background-image: url("/image/pexels-quang-nguyen-vinh-222549-2172499.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.navIcon {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;      
+  object-fit: cover;
+
+}
+
+:root {
+    --coreJade:#4CBB17;
+    --coreSecond:#E3F988;
+    --coreMint:#E5E4E2;
+
+}
+
+.btn-outline {
+    background-color: var(--coreJade);
+    border-color: var(--coreSecond);
+    color: var(--coreMint);
+}
+
+.btn:hover {
+    background-color: var(--coreMint);
+    border-color: var(--coreSecond);
+    color: var(--coreJade);
+}
+
+.btn:hover:active {
+    background-color: var(--coreMint);
+    border-color: var(--coreSecond);
+    color: var(--coreJade);
+}
+
+.cardbackground {
+    background-color: var(--coreMint);
+    width:100%;
+    
+}
+
+.card img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover; /* or 'contain' depending on the effect you want */
+    display: block;
+}
+
+.h5pink {
+    color: var(--coreMint)
+}
+
+.team-member {
+    transition: transform 0.3s ease-in-out;
+}
+
+.cardtext {
+    
+}
+
+.member {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2)
+
+}
+
+.member img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: none;
+    margin:0 auto;
+    overflow: hidden;
+    padding:50px 50px;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: 500px; 
+    display: block;
+    object-fit: cover; 
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
